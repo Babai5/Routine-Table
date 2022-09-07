@@ -1,0 +1,83 @@
+body {
+    font-family: Georgia;
+    background: rgba(255, 172, 104, 0.808);
+}
+
+.tablestyle {
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 11pt;
+    width: 50%;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(95, 95, 95);
+}
+
+
+.tablestyle thead {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-top: 2px solid rgb(255, 0, 0);
+    border-right: 2px solid rgb(255, 0, 0);
+    border-left: 2px solid rgb(255, 0, 0);
+    height: auto;
+
+}
+
+.tablestyle .paddingtd3 {
+    padding-top: 10px;
+    font-size: 20pt;
+}
+
+.tablestyle .paddingtd2 {
+    padding: 5px;
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+.tablestyle .paddingtd {
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+.tablestyle td {
+    padding: 10px 15px;
+}
+
+.tablestyle .headr {
+    background-color: white;
+    border-top: 1.5px solid rgba(0, 0, 0, 0.534);
+}
+
+.tablestyle tbody{
+    text-align: center;
+}
+
+.tablestyle tbody tr td{
+    border: 2px solid rgba(0, 0, 0, 0.493);
+    background-color: rgb(255, 227, 104);
+}
+
+.tablestyle .bottom_border {
+    border-bottom: 3px solid rgb(255, 0, 0);
+}
+
+.tablestyle .tiffin{
+    border-bottom: 3px solid rgb(255, 0, 0);
+    padding: 0px;
+
+    /* -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg); */
+    /* transform: rotate(-90deg) */
+}
+
+.rotate{
+    /* display: flex;
+justify-content: center;
+rotate: -90deg; */
+/* transform: rotate(0.75turn); */
+font-size: 30px;
+transform: rotate(-90deg);
+}
